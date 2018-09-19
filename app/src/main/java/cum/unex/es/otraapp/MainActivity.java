@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button btnBotonSimple = (Button)findViewById(R.id.btnaceptar);
-        btnBotonSimple.setOnClickListener(new View.OnClickListener() {
+        btnBotonSimple.setOnClickListener(
+                new View.OnClickListener() {
             public void onClick(View arg0) {
                 EditText tx = (EditText) findViewById(R.id.cuadro);
                 Intent intent = new Intent(MainActivity.this, ActividadSegunda.class);

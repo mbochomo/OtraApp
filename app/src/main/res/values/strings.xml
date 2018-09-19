@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OtraApp</string>
+    <string name="nombre_usuario">Nombre</string>
 </resources>
