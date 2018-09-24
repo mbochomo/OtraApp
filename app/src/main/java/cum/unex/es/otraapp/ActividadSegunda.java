@@ -23,6 +23,10 @@ public class ActividadSegunda extends AppCompatActivity {
                 new View.OnClickListener() {
                     public void onClick(View arg0) {
                         Intent intent = new Intent(ActividadSegunda.this, Main2Activity.class);
+                        String prueba = "Movimiento naranja, el futuro esta en tus manos";
+                        Bundle b = new Bundle();
+                        b.putString("movimiento",prueba.toString());
+                        intent.putExtras(b);
                         startActivity(intent);
                     }
                 }

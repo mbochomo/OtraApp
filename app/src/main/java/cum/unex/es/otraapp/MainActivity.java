@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 //Información del intent
                 intent.putExtras(b);
                 //Iniciar nueva actividad
+                String a = "a";
                 startActivity(intent);
             }
         });
